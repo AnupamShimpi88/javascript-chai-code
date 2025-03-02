@@ -33,8 +33,8 @@ const myArray2=new Array(1,2,3,4,5,6,7)
 // console.log("full Array",myFavourates2)
 // console.log("sliced array",sliceArr)
 
-//splice operation change the array (it will return range and trim other values from array and change array)
-// console.log("A",myFavourates2)
-// const spArray = myFavourates2.splice(0,5);
-// console.log("spliced array", spArray)
-// console.log("c",myFavourates2)
+splice operation change the array (it will return range and trim other values from array and change array)
+console.log("A",myFavourates2)
+const spArray = myFavourates2.splice(0,5);
+console.log("spliced array", spArray)
+console.log("c",myFavourates2)
